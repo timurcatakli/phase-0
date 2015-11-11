@@ -7,7 +7,7 @@
 
 ## 1.1 Think About Time Reflection
 
-<STRONG>Which time management and productivity ideas did you learn about?</STRONG>
+#### Which time management and productivity ideas did you learn about?
 
 I personally love and follow <I>“Getting Things Done”</I> time management methodology by David Allen. This assessment taught me the “Pomodoro Technique”. Pomodoro technique makes large projects into bitable sizes which makes everything more manageable.
 
@@ -17,7 +17,7 @@ I also learnt about the huge benefits of meditation and will definitely give it 
 
  
 
-<strong>What is "Time Boxing?" How can you use it in Phase 0?</strong>
+#### What is "Time Boxing?" How can you use it in Phase 0?
 
 Time boxing technique is to accomplish the work within the previously agreed duration. So you dont work until the work is completed but you work until you run out of time. The time scales could be pomodoros (25 mins) or any duration you feel comfortable.
 
@@ -25,17 +25,17 @@ Time boxing technique is to accomplish the work within the previously agreed dur
 Personally I know that after 2 pomodoros I need to take a long break… So a 2 pomodoro long time boxed sprints would help me plan my day.
 
  
-<strong>How do you manage your time currently?</strong>
+#### How do you manage your time currently?
 
 I use GTD methodology (https://en.wikipedia.org/wiki/Getting_Things_Done (Links to an external site.)) . I make a list of high priority tasks and make sure that I deliver them without any distractions. I also try to take naps midday and work at night where kids are sleep and less interruptions exist.
 
  
-<strong>Is your current strategy working? If not, why not?</strong>
+#### Is your current strategy working? If not, why not?
 
 I have to say it is working up to a point but I know that it has room to grow.
 
  
-<strong>Can/will you employ any of them? If so, how?</strong>
+#### Can/will you employ any of them? If so, how?
 
 My plan is to employ meditation and have a growth mindset. This way I am planning to increase my focus and have an open mind when it comes to receiving feedback.
 
@@ -48,7 +48,7 @@ I am planning to follow GTD, pomodoro techniques and also planning to add medita
 
 ## 1.2 The Command Line Reflection
 
-### 1- What is a shell? What is "bash?"
+#### 1- What is a shell? What is "bash?"
 
 If “Shell” is a car then bash is “Honda”. There is also “Toyota” etc.
 
