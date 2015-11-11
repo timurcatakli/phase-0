@@ -24,7 +24,7 @@ To clone a new repository
 
 
 ## Describe what open source means.
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opensource.svg/2000px-Opensource.svg.png">
+<img width="200px" align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opensource.svg/2000px-Opensource.svg.png">
 
 Open source software (sometimes called Free and Open Source Software or FOSS) is the practice of sharing how a computer program was made and allowing anyone to customize the program as they see fit. Pretty much all sold software in the market are not Open Source. If they were, we wouldn't spend money on them as they would be free. Also we would have the opportunity to customize them as we see fit and have our own versions.
 
