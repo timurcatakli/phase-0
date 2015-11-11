@@ -61,74 +61,63 @@ First there was Bourne Shell and then new functionality like TCP/IP support adde
 
 Everything was pretty straight forward. The only challenge I had was when I wanted to change the colors of the ‘ls’ command in my bash profile. Figuring out all the commands below and then forgetting to restart terminal  lost me time but I eventually accomplished.
 
-```` cd ~ ````
+````
+cd ~
+````
 
+````
 vi .bash_profile
+````
 
+````
 export LSCOLORS=”ed”
+````
 
+````
 wq
+````
 
-3- Were you able to successfully use all of the commands?
+#### 3- Were you able to successfully use all of the commands?
 
 Yes...
 
-4- In your opinion, what are the most important commands and arguments to know?
+#### 4- In your opinion, what are the most important commands and arguments to know?
 
-If there is one command I have to select then I would choose: ‘man’
+If there is one command I have to select then I would choose: ```` ‘man’ ````
 
 As long as someone knows ‘man’, the rest can be learnt. Below commands and arguments are also important.
 
+````
 -pwd -ls (use it with TAB) -mv -cd -../ -touch -mkdir -less -rmdir -rm -help
+````
 
-But the two functionality that grabbed my attention are: ‘alias’ and ‘grep’.
+But the two functionality that grabbed my attention are: ```` ‘alias’ ```` and ```` ‘grep’ ````.
 
 I downloaded James King’s Bible as a txt file and played with it using grep… Got my answers to statistical questions like  “how many times the word Moses got mentioned  in the Bible” etc.
 
-Alias also helped me a lot to “cd” to long directory paths.
+```` Alias ```` also helped me a lot to “cd” to long directory paths.
 
- 
-
-5- Can you remember what each of the following does of the top of your head? Write what each does.
+#### 5- Can you remember what each of the following does of the top of your head? Write what each does.
 
 -pwd - Print working directory: Shows where you are in the unix environment. Your location in reference to ~
 
- 
+ -ls - list: Lists all directories and files with permissions etc. for the current folder structure. Using TAB saves you time and -l shows you details.
 
--ls - list: Lists all directories and files with permissions etc. for the current folder structure. Using TAB saves you time and -l shows you details.
+ -mv - move: Moving files or, rather, renaming them. It's easy: give the old name and the new name.
 
- 
+ -cd - change directory: Use cd to move from one place to another by using shortcuts such as ../../
 
--mv - move: Moving files or, rather, renaming them. It's easy: give the old name and the new name.
+ -../ - shortcut: Refers to one folder up
 
- 
+ -touch - make empty files: Function that creates empty files.
 
--cd - change directory: Use cd to move from one place to another by using shortcuts such as ../../
+ -mkdir - make directory: Creates a directory. mkdir -p will make an entire path even if all the directories don't exist.
 
- 
+ -less: With the help of this command, whatever output is piped or sent to the screen it doesn't over flow or exceed screensize.
 
--../ - shortcut: Refers to one folder up
+ -rmdir - remove directory: Removes or deletes a folder/directory if it is empty.
 
- 
-
--touch - make empty files: Function that creates empty files.
-
- 
-
--mkdir - make directory: Creates a directory. mkdir -p will make an entire path even if all the directories don't exist.
-
- 
-
--less: With the help of this command, whatever output is piped or sent to the screen it doesn't over flow or exceed screensize.
-
- 
-
--rmdir - remove directory: Removes or deletes a folder/directory if it is empty.
-
- 
-
--rm - remove: Removes files. Using the option “-rf” removes the files and the folder all together.
-
+ -rm - remove: Removes files. Using the option “-rf” removes the files and the folder all together.
 
 -help: If I am not mistaken -help is for Windows and -man is for Unix shell...
 
