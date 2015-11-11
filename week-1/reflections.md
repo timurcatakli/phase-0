@@ -17,35 +17,30 @@ I also learnt about the huge benefits of meditation and will definitely give it 
 
  
 
-What is "Time Boxing?" How can you use it in Phase 0?
+<strong>What is "Time Boxing?" How can you use it in Phase 0?</strong>
 
 Time boxing technique is to accomplish the work within the previously agreed duration. So you dont work until the work is completed but you work until you run out of time. The time scales could be pomodoros (25 mins) or any duration you feel comfortable.
 
  
-
 Personally I know that after 2 pomodoros I need to take a long break… So a 2 pomodoro long time boxed sprints would help me plan my day.
 
  
-
-How do you manage your time currently?
+<strong>How do you manage your time currently?</strong>
 
 I use GTD methodology (https://en.wikipedia.org/wiki/Getting_Things_Done (Links to an external site.)) . I make a list of high priority tasks and make sure that I deliver them without any distractions. I also try to take naps midday and work at night where kids are sleep and less interruptions exist.
 
  
-
-Is your current strategy working? If not, why not?
+<strong>Is your current strategy working? If not, why not?</strong>
 
 I have to say it is working up to a point but I know that it has room to grow.
 
  
-
-Can/will you employ any of them? If so, how?
+<strong>Can/will you employ any of them? If so, how?</strong>
 
 My plan is to employ meditation and have a growth mindset. This way I am planning to increase my focus and have an open mind when it comes to receiving feedback.
 
  
-
-What is your overall plan for Phase 0 time management?
+<strong>What is your overall plan for Phase 0 time management?</strong>
 
 I am planning to follow GTD, pomodoro techniques and also planning to add meditation into the mix...
 
