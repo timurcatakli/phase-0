@@ -71,9 +71,9 @@ Pull requests let you tell others about changes you've pushed to a repository on
 
 The steps are:
 
-1- Create/Log in to your GitHub account
-2- Go to the page for the code respository you want to contribute to.
-3- “Fork” the repository (this creates a clone to your GitHub account)
+1. Create/Log in to your GitHub account
+2. Go to the page for the code respository you want to contribute to.
+3. “Fork” the repository (this creates a clone to your GitHub account)
 4- Create a local clone of your fork with git clone
 5- Create a local branch for your changes
 6- Make your changes and commit them to your local branch with git commit, ensuring to include a descriptive commit message
