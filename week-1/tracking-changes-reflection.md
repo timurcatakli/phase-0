@@ -11,10 +11,10 @@ A commit is simply saving file/s and creating a markpoint in your projects timel
 
 ## What are the best practices for commit messages?
 
-1- The first line of the commit message should be a short description with a 50 characters limit
-2- Skip the full stop on the first line
-3- The body should provide a meaningful commit message
-4- Use the imperative, present tense: “change” not “changed” or “changes”.
+1. The first line of the commit message should be a short description with a 50 characters limit
+2. Skip the full stop on the first line
+3. The body should provide a meaningful commit message
+4. Use the imperative, present tense: “change” not “changed” or “changes”.
 
 
 ## What does the HEAD^ argument mean?
@@ -74,13 +74,13 @@ The steps are:
 1. Create/Log in to your GitHub account
 2. Go to the page for the code respository you want to contribute to.
 3. “Fork” the repository (this creates a clone to your GitHub account)
-4- Create a local clone of your fork with git clone
-5- Create a local branch for your changes
-6- Make your changes and commit them to your local branch with git commit, ensuring to include a descriptive commit message
-7- Push the branch to your GitHub fork using git push
-8- Go to the page for the upstream repository go to the pull requests tab
-9- Click the “New Pull Request” Button
-10- Select the branch you want to submit, and write a summary of what your change explaining what it is intended to do and how it is implemented
+4. Create a local clone of your fork with git clone
+5. Create a local branch for your changes
+6. Make your changes and commit them to your local branch with git commit, ensuring to include a descriptive commit message
+7. Push the branch to your GitHub fork using git push
+8. Go to the page for the upstream repository go to the pull requests tab
+9. Click the “New Pull Request” Button
+10. Select the branch you want to submit, and write a summary of what your change explaining what it is intended to do and how it is implemented
 
 Once a pull request has been approved the maintainer will pull it into the requested branch of the upstream repository using git merge  command.
 
