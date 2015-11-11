@@ -61,9 +61,7 @@ First there was Bourne Shell and then new functionality like TCP/IP support adde
 
 Everything was pretty straight forward. The only challenge I had was when I wanted to change the colors of the ‘ls’ command in my bash profile. Figuring out all the commands below and then forgetting to restart terminal  lost me time but I eventually accomplished.
 
-````
-cd ~
-````
+```` cd ~ ````
 
 vi .bash_profile
 
