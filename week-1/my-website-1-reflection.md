@@ -22,6 +22,18 @@ To create a new repository
 
 To clone a new repository
 
+<img src="https://help.github.com/assets/images/help/repository/clone-repo-clone-url-button.png" />
+
+1. On GitHub, navigate to the main page of the repository.
+2. Find the clone URL button In the right sidebar of the repository page, click  to copy the clone URL for the repository. See above image.
+3. Open Terminal
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type git clone, and then paste the URL you copied in Step 2.
+````
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+````
+6. Press Enter. Your local clone will be created.
+
 
 ## Describe what open source means.
 <img width="200px" align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Opensource.svg/2000px-Opensource.svg.png">
