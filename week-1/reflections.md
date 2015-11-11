@@ -40,7 +40,7 @@ I have to say it is working up to a point but I know that it has room to grow.
 My plan is to employ meditation and have a growth mindset. This way I am planning to increase my focus and have an open mind when it comes to receiving feedback.
 
  
-### What is your overall plan for Phase 0 time management?
+ #### What is your overall plan for Phase 0 time management?
 
 I am planning to follow GTD, pomodoro techniques and also planning to add meditation into the mix...
 
@@ -57,12 +57,13 @@ Shell is the Command Line Interface itself (GUI for keyboards) and Bash is the s
 First there was Bourne Shell and then new functionality like TCP/IP support added and the name changed to “Bourne Again Shell (bash)”.
 
  
-
-2- What was the most challenging for you in going through this material?
+#### 2- What was the most challenging for you in going through this material?
 
 Everything was pretty straight forward. The only challenge I had was when I wanted to change the colors of the ‘ls’ command in my bash profile. Figuring out all the commands below and then forgetting to restart terminal  lost me time but I eventually accomplished.
 
+''''
 cd ~
+''''
 
 vi .bash_profile
 
