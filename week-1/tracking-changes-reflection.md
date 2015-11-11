@@ -29,6 +29,36 @@ You reset your project to the last commit. For older commits you can use HEAD^^,
 
 ## What are the 3 stages of a git change and how do you move a file from one stage to the other?
 
+#### Tracking Changes
+
+This is done automatically whenever you make changes to a file. You can use
+````
+git status
+````
+command to see the current status of your local repo. Once you are ready simply add your files to the staging area by typing
+````
+git add filename
+````
+
+#### Committing Changes
+Your changes file is in the stating area and now it is time to save it in other words commit it.
+````
+git commit -m "your commit message goes here"
+````
+
+#### Pushing Changes
+Pushing your changes to GitHub is easy. Simply type:
+git push origin master
+
+
+
+
+
+
+
+
+
+
 
 ## Write a handy cheatsheet of the commands you need to commit your changes?
 
