@@ -7,9 +7,9 @@
 
 ## 1.1 Think About Time Reflection
 
-Which time management and productivity ideas did you learn about?
+<STRONG>Which time management and productivity ideas did you learn about?</STRONG>
 
-I personally love and follow “Getting Things Done” time management methodology by David Allen. This assessment taught me the “Pomodoro Technique”. Pomodoro technique makes large projects into bitable sizes which makes everything more manageable.
+I personally love and follow <I>“Getting Things Done”</I> time management methodology by David Allen. This assessment taught me the “Pomodoro Technique”. Pomodoro technique makes large projects into bitable sizes which makes everything more manageable.
 
  
 
