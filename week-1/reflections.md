@@ -123,4 +123,44 @@ I downloaded James King’s Bible as a txt file and played with it using grep…
 
 
 ## 1.4 Forking and Cloning Reflection
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non consectetur nunc. Nunc at sapien quis felis aliquet ultrices. Maecenas magna enim, pulvinar et mi nec, ultrices dapibus urna. Morbi sed congue ex. Suspendisse eu leo accumsan, commodo dolor a, consequat nibh. Nam dui mi, mollis nec cursus vel, elementum eu purus. Aliquam lorem ligula, aliquet at lobortis quis, suscipit fermentum metus.
+
+#### If you were going to write instructions for a new person on how to create a new repo, fork a repo, and clone a repo, what would they be? Why would you fork a repository as opposed to create a new one?
+
+ 
+ <strong>Create / Fork / Clone a Repo Instructions using GitHub</strong>
+
+Before creating a repo you need to understand the difference between Git and GitHub. If you are having problems distinguishing then please come back when you are ready.
+
+ If you ever used Google Drive or Dropbox, then the concept of creating a repo will be very easy to understand.
+
+ Repository or repo for short is simply a folder where you store your work. This could be from your images to code files.
+
+ In order to create a repo using github please follow these steps:
+
+ <strong>1- Login to your GitHub account. And click on the green “+ New repository” button...</strong>
+
+Screenshot 2015-11-10 13.15.00.png
+
+ <strong>2- Fill out the repository name. Make it publicly accessible or not and finally select a License Type if needed and click on the green “Create repository” button.</strong>
+
+ Screenshot 2015-11-10 13.16.54.png
+
+ <strong>3- Voilla, you created your first repo. Now lets fork a repo. Forking a repo is copying someone else’s folder to your account.</strong>
+
+ Go to : https://github.com/timurcatakli/git-real.github.io (Links to an external site.) and click on the “Fork” button located on the top right.
+
+Screenshot 2015-11-10 13.20.35.png
+
+ You successfully forked a repo. Now that repo is located under your account.
+
+ <strong>4- Cloning a repo is making repo contents available in your computer. In order to do that open up your terminal and navigate to the folder where you want the repo to be stored in. Copy the SSH clone URL from the repo page on GitHub and simply type the command below.</strong>
+ 
+
+git clone git@github.com:timurcatakli/git-real.github.io.git
+
+ And you are done… Don’t forget, creating a repo from scratch and forking a repo are two completely different actions.  By forking a repo you now have a working copy where you can make changes and if needed you can commit those changes…
+
+ 
+#### What struggles did you have setting up git and GitHub? What did you learn in the process?
+
+Watch tens of videos or read tens of articles. It all gets down to practicing. The concept is actually easy to grasp but when it comes down to branches, it gets complicated. If you have Mac and followed the Phase-0’s “Setting Up Your Computer” instructions then there is pretty much nothing to worry in terms of setting up git and GitHub. Through the process I learnt that I can not only use git for coding but for my own personal use also.
