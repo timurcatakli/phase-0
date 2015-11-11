@@ -29,7 +29,7 @@ You reset your project to the last commit. For older commits you can use HEAD^^,
 
 ## What are the 3 stages of a git change and how do you move a file from one stage to the other?
 
-#### Tracking Changes
+#### 1- Tracking Changes
 
 This is done automatically whenever you make changes to a file. You can use
 ````
@@ -40,13 +40,13 @@ command to see the current status of your local repo. Once you are ready simply 
 git add filename
 ````
 
-#### Committing Changes
+#### 2- Committing Changes
 Your changes file is in the stating area and now it is time to save it in other words commit it.
 ````
 git commit -m "your commit message goes here"
 ````
 
-#### Pushing Changes
+#### 3- Pushing Changes
 Pushing your changes to GitHub is easy. Simply type:
 git push origin master
 
