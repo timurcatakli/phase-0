@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog</title>
+
+    <!-- 
+        Type of the document being linked to
+        type="text/css"
+        
+        Relationship
+        rel="stylesheet"
+
+    -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+<!-- TEST Code Goes Here -->
+<dl>
+<dt>Week 01</dt>
+<dd>This week's material covers the basics of web design and HTML so you can get started building websites. After this week and next week, you will have your own website to show off to the world!</dd>
+
+<dt>Week 01</dt>
+<dd>This week's material covers the basics of web design and HTML so you can get started building websites. After this week and next week, you will have your own website to show off to the world!</dd>
+
+<dt>Week 01</dt>
+<dd>This week's material covers the basics of web design and HTML so you can get started building websites. After this week and next week, you will have your own website to show off to the world!</dd>
+
+<dt>Week 01</dt>
+<dd>This week's material covers the basics of web design and HTML so you can get started building websites. After this week and next week, you will have your own website to show off to the world!</dd>
+</dl>
+
+<hr />
+
+<figure>
+    <img src="http://screenshots.en.sftcdn.net/en/scrn/69656000/69656161/scr_0-700x456.png" />
+    <br />
+    <figcaption>This week's material covers the basics of web design and HTML so you can get started building websites. After this week and next week, you will have your own website to show off to the world!</figcaption>
+</figure>
+
+<hr />
+
+
+<form action="" type="post">
+<fieldset>
+    <legend>Contact Details</legend>
+
+    <label for="email">Email</label>
+    <input type="email" name="email" required="required" placeholder="Your email">
+
+    <br/><br/>
+
+    <label for="website">URL</label>
+    <input type="url" name="website" required="required">
+
+    <br/><br/>
+
+    <label for="date">Depart</label>
+    <input type="date" required="required">
+
+    <br/><br/>
+
+            
+    <label for="username">Username</label>
+    <input name="username" required="required">
+
+    <br/><br/>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" required="required">
+
+    <br/><br/>
+
+    <input type="submit" value="Submit">
+</fieldset>
+</form>
+
+    <br/><br/>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>Selector</th>
+            <th>Meaning</th>
+            <th>Example</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>UNIVERSAL SELECTOR</th>
+            <td>Applies to all elements in the document</td>
+            <td><code>* {}</code> - Targets all elements on the page</td>
+        </tr>
+        <tr>
+            <th>TYPE SELECTOR</th>
+            <td>Matches Elements</td>
+            <td><code>h1, h2, h3 {}</code> - Targets the <xmp><h1>, <h2> and <h3></xmp> elements</td>
+        </tr>
+         <tr>
+            <th>CLASS SELECTOR</th>
+            <td>Matches an element whose class attribute has a value that matches the one speci ed after the period (or full stop) symbol</td>
+            <td>
+                <code>.note {} </code>- Targets any element whose class attribute has a value of note
+                <code>p.note {}</code> -Targets only <xmp><p></xmp> elements whose class attribute has a value of note</td>
+        </tr>
+        <tr>
+            <th>ID SELECTOR</th>
+            <td>Matches an element whose id attribute has a value that matches the one speci ed after the pound or hash symbol</td>
+            <td><code>#introduction {}</code> - Targets the element whose id attribute has a value of introduction
+            </td>
+        </tr>
+        <tr>
+            <th>CHILD SELECTOR</th>
+            <td>Matches an element that is a direct child of another</td>
+            <td><code>li>a {}</code> - Targets any <xmp><a></xmp> elements that are children of an <xmp><li></xmp> element (but not other <xmp><a></xmp> elements in the page)
+            </td>
+        </tr>
+        <tr>
+            <th>DESCENDANT SELECTOR</th>
+            <td>Matches an element that is a descendent of another speci ed element (not just a direct child of that element)</td>
+            <td><code>p a {}</code> Targets any <xmp><a></xmp> elements that sit inside a <xmp><p></xmp> element, even if there are other elements nested between them
+            </td>
+        </tr>
+        <tr>
+            <th>ADJACENT SIBLING SELECTOR</th>
+            <td>Matches an element that is the next sibling of another</td>
+            <td><code>h1+p {}</code> Targets the  rst <xmp><p></xmp> element after any <xmp><h1></xmp> element (but not other <p> elements)
+            </td>
+        </tr>
+        <tr>
+            <th>GENERAL SIBLING SELECTOR</th>
+            <td>Matches an element that is a sibling of another, although it does not have to be the directly preceding element</td>
+            <td><code>h1~p {}</code> - If you had two <xmp><p></xmp> elements that are siblings of an <xmp><h1></xmp> element, this rule would apply to both</td>
+        </tr>        
+    </tbody>
+</table>      
+
+
+
+                </div>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
