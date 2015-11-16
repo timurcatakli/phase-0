@@ -1,1 +1,1 @@
-![Timur Catakli - Site Map](/imgs/site-map.png)
+![Timur Catakli - Site Map](imgs/site-map.png)
