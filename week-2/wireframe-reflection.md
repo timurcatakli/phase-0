@@ -23,7 +23,7 @@ Revised it at least 6-7 times...
 
 ### What questions did you ask during this challenge? What resources did you find to help you answer them?
 
-I was mainly concerned with selecting the right tool. After some research I decided to go with ![Sketch 3](https://www.sketchapp.com/).
+I was mainly concerned with selecting the right tool. After some research I decided to go with [Sketch 3](https://www.sketchapp.com/).
 
 
 ### Which parts of the challenge did you enjoy and which parts did you find tedious?
