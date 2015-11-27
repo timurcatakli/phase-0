@@ -1,39 +1,72 @@
-html {
-  background-color: white;
-}
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+Actually there is only one thing to know which is below:
+<link type="text/css" href="my-berkshire-stylesheet.css" rel="stylesheet" />
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+Positionin is extremely hard. The tricks I used was to give different background colors to each div to see how they are positioned. I also used Chrome Dev Tools
+
+What CSS did you use to modify the element style (like size, color, etc.)
+Please see below CSS code. It is all there...
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yes, I did it for link columns. 
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+Mine is cleaner. I used HTML5 semantic tags. That is why...*/
 
 body {
-    color: #000080;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:300;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: gray;
+    width:80%;
+    margin:auto;
 }
 
-a {
-    color: #800080;
-}
-header {
-    text-align:center;
+h1, h2, h3 {
+    font-family: 'Bree Serif', serif;
+    color: black;
 }
 
-span.ucase {
-    display: inline;
-    font-size:50px;
-}
-span {
-    display: block;
+.top01 {
+    width:500px;
+    border:0px;
+    padding: 0px;
+    margin:auto;
+    text-align: center;
+    vertical-align: middle;
 }
 
-a:visited {
-    color:#ff0000;
+.link_col_left {
+    width:45%;
+    float:left;
+    margin:auto;
 }
 
 .link_col_right {
-    background-color:yellow;
+    width:45%;
     float:right;
-    width:50%;
-    
+    margin:auto;
 }
-.link_col_left {
-    background-color:#cccccc;
-    width:50%;
-    float:left;
-    
+
+ul {
+    line-height: 30px;
 }
+
+a:hover {
+    color:#CC0000;
+}
+
+.div_hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background:gray;
+    clear:both;
+}
+
+
+
