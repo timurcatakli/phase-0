@@ -1,0 +1,39 @@
+html {
+  background-color: white;
+}
+
+body {
+    color: #000080;
+}
+
+a {
+    color: #800080;
+}
+header {
+    text-align:center;
+}
+
+span.ucase {
+    display: inline;
+    font-size:50px;
+}
+span {
+    display: block;
+}
+
+a:visited {
+    color:#ff0000;
+}
+
+.link_col_right {
+    background-color:yellow;
+    float:right;
+    width:50%;
+    
+}
+.link_col_left {
+    background-color:#cccccc;
+    width:50%;
+    float:left;
+    
+}
