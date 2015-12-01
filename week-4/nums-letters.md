@@ -58,4 +58,21 @@ puts "There are #{decade_days * minutes_in_a_day} minutes in a decade"
 <a href="https://github.com/timurcatakli/phase-0/blob/master/week-4/basic-math.rb">https://github.com/timurcatakli/phase-0/blob/master/week-4/basic-math.rb</a>
 
 
+### How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+Ruby handles arithmetical operations just like a calculator.
+
+### What is the difference between integers and floats?
+Please see above... This is already explained.
+
+### What is the difference between integer and float division?
+Please see above... This is already explained.
+
+### What are strings? Why and when would you use them?
+Groups of letters in a program referred as strings. We use strings in order to push/pull data.
+
+### What are local variables? Why and when would you use them?
+To store the strings or other data in computer’s memory for a later use, you need to give the string a name. Programmers often refer to this process as assignment, and they call the names variables. A variable name can usually be just about any sequence of letters and numbers. We use variables in order to access assigned data for future use.
+
+### How was this challenge? Did you get a good review of some of the basics?
+It was a good opportunity to get introduced to rspec and basics of Ruby.
 
