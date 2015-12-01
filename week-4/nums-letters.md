@@ -1,3 +1,5 @@
+## Reflection
+
 ### What does puts do?
 
 >> puts stands for >> put string and it returns nil and prints the output to the console with a new line.
@@ -23,5 +25,22 @@ Best way is to give an example...
 >> 13.5 / 2.3
 => 5.869565217391305		#The result is a float
 ```
-
 If one of the numbers is a float, then the result is always a float.
+
+## Mini Challenges
+
+### Hours in a year
+
+```ruby
+hours_in_one_day = 24
+hours_in_a_year = hours_in_one_day * 365
+puts "There are #{hours_in_a_year} hours in a year - ignoring leap years"
+```
+
+### Minutes in a decade
+
+```ruby
+decade_days = 10 * 365			#ignoring leap years
+minutes_in_a_day = 1 * 60 * 24
+puts "There are #{decade_days * minutes_in_a_day} minutes in a decade"
+```
