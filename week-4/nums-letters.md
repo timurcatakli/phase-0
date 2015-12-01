@@ -12,7 +12,7 @@ Best way is to give an example...
 
 13 and 2 are integers. So the following will also give us an integer
 
-```
+```ruby
 >> 13 / 2
 => 6		#The result is rounded down to make it an integer
 ```
