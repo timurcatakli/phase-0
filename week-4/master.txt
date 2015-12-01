@@ -3,8 +3,12 @@ master.txt			3:21			master		Just Created
 master.txt			3:23			feature		Opened this file and added this row in branch feature...
 <<<<<<< HEAD
 master.txt			3:25			feature		I am now adding and committing in branch feature				Commit01
+<<<<<<< HEAD
 master.txt			3:29			master		I am making another commit...									Commit02
 master.txt			3:31			master		Yet another commit///											Commit03
 =======
 master.txt			3:25			feature		I am now adding and committing in branch feature				Commit01
 >>>>>>> parent of a52955c... Commit02
+=======
+master.txt			3:29			master		I am making another commit...									Commit02
+>>>>>>> parent of 42617d8... Commit03
