@@ -29,6 +29,11 @@ puts "How about: #{gets.chomp.to_i + 1} as bigger and better favorite number"
 
 
 =begin
+Link to exercise files:
+https://github.com/timurcatakli/phase-0/blob/master/week-4/address/my_solution.rb
+https://github.com/timurcatakli/phase-0/blob/master/week-4/math/my_solution.rb
+
+
 How do you define a local variable?
 Simply by typing the variable name and an equals sign and the value.
 
