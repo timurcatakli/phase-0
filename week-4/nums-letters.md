@@ -19,7 +19,7 @@ Best way is to give an example...
 
 13.5 and 2.3 are floats so the following will give us a float.
 
-```
+```ruby
 >> 13.5 / 2.3
 => 5.869565217391305		#The result is a float
 ```
