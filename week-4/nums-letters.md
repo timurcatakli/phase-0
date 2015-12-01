@@ -44,3 +44,10 @@ decade_days = 10 * 365			#ignoring leap years
 minutes_in_a_day = 1 * 60 * 24
 puts "There are #{decade_days * minutes_in_a_day} minutes in a decade"
 ```
+
+
+### Challenge "Defining Variables" Link
+<a href="https://github.com/timurcatakli/phase-0/blob/master/week-4/defining-variables.rb">https://github.com/timurcatakli/phase-0/blob/master/week-4/defining-variables.rb</a>
+
+### Challenge "Simple Strings Methods" Link
+<a href="https://github.com/timurcatakli/phase-0/blob/master/week-4/simple-string.rb">https://github.com/timurcatakli/phase-0/blob/master/week-4/simple-string.rb</a>
