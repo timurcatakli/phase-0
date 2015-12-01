@@ -51,3 +51,11 @@ puts "There are #{decade_days * minutes_in_a_day} minutes in a decade"
 
 ### Challenge "Simple Strings Methods" Link
 <a href="https://github.com/timurcatakli/phase-0/blob/master/week-4/simple-string.rb">https://github.com/timurcatakli/phase-0/blob/master/week-4/simple-string.rb</a>
+
+
+### Challenge "Local Variables and Basic Arithmetical Operations" Link
+
+<a href="https://github.com/timurcatakli/phase-0/blob/master/week-4/basic-math.rb">https://github.com/timurcatakli/phase-0/blob/master/week-4/basic-math.rb</a>
+
+
+
