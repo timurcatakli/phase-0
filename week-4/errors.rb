@@ -3,7 +3,7 @@
 # I worked on this challenge [by myself, with: ].
 # => by myself
 # I spent [#] hours on this challenge.
-
+# => 2.5 pomodoros...
 # --- error -------------------------------------------------------
 
 # "Screw you guys " + "I'm going home." = cartmans_phrase
