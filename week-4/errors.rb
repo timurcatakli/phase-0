@@ -161,7 +161,18 @@ cartmans_lie('A meteor the size of the earth is about to hit Wyoming!', 'Kyle')
 
 # --- error -------------------------------------------------------
 
-# require_relative "cartmans_essay.md"
+begin  
+	require_relative "cartmans_essay.md"
+rescue LoadError
+	p 'Load Error'
+else  
+# Other exceptions
+p 'Else Exception'
+ensure
+# Always will be executed
+p 'Ensure Exception'
+end
+
 
 # 1. What is the line number where the error occurs?
 # => 164
