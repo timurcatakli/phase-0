@@ -1,0 +1,35 @@
+body {
+    font-family: Helvetica;
+    font-weight: 100;
+}
+
+header {
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+section.column-1 {
+    width: 50%;
+    float: left;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+head {}
+
+section.column-2 {
+    padding: 40px;
+    width: 50%;
+    box-sizing: border-box;
+    float: right;
+}
+
+
+div {
+    overflow: auto;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
