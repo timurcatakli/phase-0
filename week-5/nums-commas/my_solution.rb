@@ -115,14 +115,16 @@ puts separate_comma(190508477190784)
 
 # 3. Reflection
 # What was your process for breaking the problem down? What different approaches did you consider?
-# I opened up an excel file and tried to find a pattern to come up with an algorithm
+
+# I opened up an excel file and tried to find a pattern to come up with an algorithm. Pen and paper also helped me.
 
 # Was your pseudocode effective in helping you build a successful initial solution?
 # Yes
 
 
 # What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
-# I am a big believer of regex and I knew that there has to be a solution. SO that is what I did...
+
+# I am a big believer of regex and I knew that there has to be a solution. SO that is what I did... I read regex chapter of "Well Grounded Rubiest" and also used https://regex101.com/ for testing purposes.
 
 
 # How did you initially iterate through the data structure?
