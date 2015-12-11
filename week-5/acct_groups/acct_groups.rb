@@ -249,8 +249,37 @@ data01 = CsvReader.new
 data01.assign_groups
 
 
+# -----------------------------------------------
+# class Die
+# 	include Enumerable
+# 	def each
+# 		loop do
+# 			yield rand(6) + 1
+# 		end
+# 	end
+# end
 
+# puts "Welcome to 'You Win If You Roll a 6'!"
 
+# d = Die.new
+# i = 0
+
+# d.each do |roll|
+#   puts "You rolled a #{roll}."
+#   i += 1
+#   if roll == 6
+#     puts "You won on round #{i}...!"
+# break end
+# end
+# -----------------------------------------------
+
+# states = %w{ NJ NY CT MA VT FL }
+# p states.take(3)
+# p states.drop(3)
+# p states.take_while {|s| /N/.match(s) }
+# states.sort.each_with_index do |st, i|
+# 	puts "#{i+1}. #{st}"
+# end
 
 
 # 4. Reflection
