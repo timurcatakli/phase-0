@@ -106,30 +106,25 @@ def mode(arr)
 	end
 
 	frequency = 0
-	
-	new_hash.each do |x,y|
-		if y > frequency
-			frequency = y 
-		end
-	end
-	
+	new_hash.each_value { |y| frequency = y  if y > frequency }
+
 	new_hash.each do |x,y|
 		if y == frequency
 			new_array.push(x)
 		end
 	end
-	
+
 	return new_array
 end
 
 
 # mode([1,2,3,3,4])         # => [3]
-print mode([4.5, 0, 0])       # => [0]
+# print mode([4.5, 0, 0])       # => [0]
 # print mode ([1, 2, 3, 4, 5, 5, 7])
 #mode([1.5, -1, 1, 1.5]) # => [1.5]
 # mode([1,1,2,2])         # => [1,2]
 # mode([1,2,3])           # => [1,2,3], because all occur with equal frequency
-# mode(["who", "what", "where", "who"]) # => ["who"]
+mode(["who", "what", "where", "who"]) # => ["who"]
 
 
 # 4. Reflection
