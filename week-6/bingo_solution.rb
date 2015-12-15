@@ -137,7 +137,7 @@ class BingoBoard
     @draw = @call_letter + @call_draw_number.to_s
     return @draw
   end
-aslkdjalkdsjalkdjalkdj
+
 
 
   #check_draw method
@@ -220,22 +220,25 @@ end
 # Generate 5 random number between 61 & 75 for O colon & add it to arr_o
 
 
+def create_board
+  arr_b =  (1..15).to_a.shuffle.take(5).sort
+  arr_i =  (16..30).to_a.shuffle.take(5).sort
+  arr_n =  (31..45).to_a.shuffle.take(4).sort
+  arr_n.insert(2,'*')
+  arr_g =  (46..60).to_a.shuffle.take(5).sort
+  arr_o =  (61..75).to_a.shuffle.take(5).sort
+  board = []
+  board.push(arr_b)
+  board.push(arr_i)
+  board.push(arr_n)
+  board.push(arr_g)
+  board.push(arr_o)
+  return board
+end
 
-arr_b =  (1..15).to_a.shuffle.take(5).sort
-arr_i =  (16..30).to_a.shuffle.take(5).sort
-arr_n =  (31..45).to_a.shuffle.take(4).sort
-arr_n.insert(2,'*')
-arr_g =  (46..60).to_a.shuffle.take(5).sort
-arr_o =  (61..75).to_a.shuffle.take(5).sort
-board = []
-board.push(arr_b)
-board.push(arr_i)
-board.push(arr_n)
-board.push(arr_g)
-board.push(arr_o)
-
+board = create_board()
 new_game = BingoBoard.new(board)
-
+# Enter how many draws you want to make
 new_game.check_draw(30)
 
 #Reflection
