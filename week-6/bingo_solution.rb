@@ -196,20 +196,18 @@ end
 # Generate 5 random number between 46 & 60 for G colon & add it to arr_g
 # Generate 5 random number between 61 & 75 for O colon & add it to arr_o
 
+def arr_sort(range_up, range = 14)
+  ((range_up - range)..range_up).to_a.shuffle.take(5).sort
+end
+
 
 def create_board
-  arr_b =  (1..15).to_a.shuffle.take(5).sort
-  arr_i =  (16..30).to_a.shuffle.take(5).sort
-  arr_n =  (31..45).to_a.shuffle.take(4).sort
-  arr_n.insert(2,'*')
-  arr_g =  (46..60).to_a.shuffle.take(5).sort
-  arr_o =  (61..75).to_a.shuffle.take(5).sort
   board = []
-  board.push(arr_b)
-  board.push(arr_i)
-  board.push(arr_n)
-  board.push(arr_g)
-  board.push(arr_o)
+  5.times do | x |
+    x += 1
+    board.push(arr_sort(x*15))
+  end
+  board[2][2] = '*'
   return board
 end
 
