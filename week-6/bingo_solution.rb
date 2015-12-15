@@ -137,7 +137,7 @@ class BingoBoard
     @draw = @call_letter + @call_draw_number.to_s
     return @draw
   end
-
+aslkdjalkdsjalkdjalkdj
 
 
   #check_draw method
