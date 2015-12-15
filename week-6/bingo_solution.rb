@@ -117,24 +117,10 @@ class BingoBoard
 
   #call_draw method
   def call_draw()
-    call_letter_arr = %w[B I N G O] 
-    call_number = rand(0..4)
-    call_letter = call_letter_arr[call_number]
-    
-    case call_number
-    when 0  # B
-      @call_draw_number = rand(1..15)
-    when 1  # I
-      @call_draw_number = rand(16..30)
-    when 2  # N
-      @call_draw_number = rand(31..45)
-    when 3  # G
-      @call_draw_number = rand(46..60)
-    when 4  # O
-      @call_draw_number = rand(61..75)
-    end
-
-    draw = call_letter + @call_draw_number.to_s
+    @hash_draw = {'B'=>15, 'I'=>30, 'N'=>45, 'G'=>60, 'O'=>75}
+    draw_letter = @hash_draw.keys.sample
+    @draw_number = rand((@hash_draw[draw_letter]-14)..@hash_draw[draw_letter])
+    draw = draw_letter + @draw_number.to_i.to_s
     return draw
   end
 
@@ -143,16 +129,16 @@ class BingoBoard
   #check_draw method
   def check_draw(draw_times)
     draw_times.times do 
-    print  call_draw + ' - '
-    i = 0
-    @bingo_board.each do |x|
-      x.each_with_index do |item, index| 
-        if item == @call_draw_number
-          @bingo_board[i][index] = 'X'
+      print  call_draw + ' - '
+      i = 0
+      @bingo_board.each do |x|
+        x.each_with_index do |item, index| 
+          if item == @draw_number
+            @bingo_board[i][index] = 'X'
+          end
         end
+        i += 1      
       end
-      i += 1      
-    end
   end
     print_bingo_board()
   end
@@ -173,30 +159,21 @@ class BingoBoard
   def print_bingo_board
     j = 0 
 
-    print "\n"
-    print "\n"
-    printf "%18s", "#{cyan("B")}"
-    printf "%19s", "#{cyan("I")}"
-    printf "%19s", "#{cyan("N")}"
-    printf "%19s", "#{cyan("G")}"
-    printf "%19s", "#{cyan("O")}"
+    2.times {print "\n"}
+    @hash_draw.each { |k,v| printf "%18s", "#{cyan("#{k}")}" }
     printf "\n"
-    printf "%19s", "#{cyan("---")}"
-    printf "%19s", "#{cyan("---")}"
-    printf "%19s", "#{cyan("---")}"
-    printf "%19s", "#{cyan("---")}"
-    printf "%19s", "#{cyan("---")}"
+    5.times {printf "%18s", "#{cyan("-----")}"}
     printf "\n"
 
 
     5.times do
         @bingo_board.each do |x|
           if x[j] == '*'
-            printf "%19s", "#{red(x[j])}"
+            printf "%18s", "#{red(x[j])}"
           elsif x[j] == 'X'
-            printf "%19s", "#{green(x[j])}"
+            printf "%18s", "#{green(x[j])}"
           else
-            printf "%19s", "#{blue(x[j])}"
+            printf "%18s", "#{blue(x[j])}"
           end
         end
         printf "\n"
@@ -239,7 +216,9 @@ end
 board = create_board()
 new_game = BingoBoard.new(board)
 # Enter how many draws you want to make
-new_game.check_draw(30)
+new_game.check_draw(12)
+
+
 
 #Reflection
 # How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
