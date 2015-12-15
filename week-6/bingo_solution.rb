@@ -117,11 +117,11 @@ class BingoBoard
 
   #call_draw method
   def call_draw()
-    @call_letter_arr = %w[B I N G O] 
-    @call_number = rand(0..4)
-    @call_letter = @call_letter_arr[@call_number]
+    call_letter_arr = %w[B I N G O] 
+    call_number = rand(0..4)
+    call_letter = call_letter_arr[call_number]
     
-    case @call_number
+    case call_number
     when 0  # B
       @call_draw_number = rand(1..15)
     when 1  # I
@@ -134,8 +134,8 @@ class BingoBoard
       @call_draw_number = rand(61..75)
     end
 
-    @draw = @call_letter + @call_draw_number.to_s
-    return @draw
+    draw = call_letter + @call_draw_number.to_s
+    return draw
   end
 
 
@@ -242,3 +242,46 @@ new_game = BingoBoard.new(board)
 new_game.check_draw(30)
 
 #Reflection
+# How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
+# Although it wasn't very hard, the problem I am having is I always end up changing the pseudocode after I start coding.
+#I dont follow my pseudocode plan step by step, even small, something different always comes up.
+
+# --------------------------------------------------------------------------------
+
+# What are the benefits of using a class for this challenge?
+# First of all having all these methods under one roof is a good organization skill. Also it is easier to pass instance variables between methods.
+
+# --------------------------------------------------------------------------------
+
+#How can you access coordinates in a nested array?
+# A nested each statement solves the problem. Also creating an integer like i = 0 and incrementing it by one at the end of each loop helps. Sometimes it is better to iterate using each_with_index
+
+# --------------------------------------------------------------------------------
+
+# What methods did you use to access and modify the array?
+#I used .each and each_with_index
+
+# --------------------------------------------------------------------------------
+
+#Give an example of a new method you learned while reviewing the Ruby docs. Based on what you see in the docs, what purpose does it serve, and how is it called?
+
+# I learnt   def red(text);    colorize(text, 31);   end
+# I also learnt more about printf
+# They are used to colorize strings and insert spaces between variables in order to make them look pretty and easier to read.
+
+# --------------------------------------------------------------------------------
+# How did you determine what should be an instance variable versus a local variable?
+# If a variable is to be used in more than one method inside the class then I made it an instance variable.
+
+# --------------------------------------------------------------------------------
+
+# What do you feel is most improved in your refactored solution?
+# I am gonna honest with you. Either I am very skilled or I don't know much about refactoring. I am looking at my code and I dont see anything to refactor. I appreciate if you can help me in that respect.
+
+# --------------------------------------------------------------------------------
+
+
+
+
+
+
