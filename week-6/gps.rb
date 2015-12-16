@@ -45,3 +45,26 @@ p serving_size_calc("pie", 12)
   
 ###integer math - mod
 ### reduce & collecter inject
+
+
+# What did you learn about making code readable by working on this challenge?
+# I learnt that you can't refactor enough. And there is a fine line between refactoring and making the code readable.
+# ------------------------------------------------------------------------
+# Did you learn any new methods? What did you learn about them?
+# .select method for hash was new...
+# ------------------------------------------------------------------------
+# What did you learn about accessing data in hashes? 
+#Although we can use .each, .select is also a good option to pick data.
+# ------------------------------------------------------------------------
+# What concepts were solidified when working through this challenge?
+# I learnt a lot about refactoring. Getting rid of if, else and finding another solution by refactoring helped me solidify my skills.
+
+
+
+
+
+
+
+
+
+
