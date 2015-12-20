@@ -130,14 +130,12 @@ class BingoBoard
   def check_draw(draw_times)
     draw_times.times do 
       print  call_draw + ' - '
-      i = 0
       @bingo_board.each do |x|
         x.each_with_index do |item, index| 
           if item == @draw_number
-            @bingo_board[i][index] = 'X'
+            x[index] = 'X'
           end
         end
-        i += 1      
       end
   end
     print_bingo_board()

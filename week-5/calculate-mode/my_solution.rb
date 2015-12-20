@@ -101,24 +101,20 @@ def mode(arr)
 		new_hash.has_key?(x) ? new_hash[x] += 1 : new_hash[x] = 1
 	}
 
-	frequency = 0
-	new_hash.each_value { |y| frequency = y  if y > frequency }
+	stripped_hash = new_hash.select {|k,v| v == new_hash.values.max}
+	return stripped_hash.keys
 
-	new_hash.each do |x,y|
-		new_array.push(x) if y == frequency
-	end
-
-	return new_array
 end
 
 
-# mode([1,2,3,3,4])         # => [3]
-# print mode([4.5, 0, 0])       # => [0]
-# print mode ([1, 2, 3, 4, 5, 5, 7])
-#mode([1.5, -1, 1, 1.5]) # => [1.5]
-# mode([1,1,2,2])         # => [1,2]
+#print mode([1,2,3,3,4])         # => [3]
+#print mode([4.5, 0, 0])       # => [0]
+#print mode ([1, 2, 3, 4, 5, 5, 7])
+mode([1.5, -1, 1, 1.5]) # => [1.5]
+#print mode([1,1,2,2])         # => [1,2]
+#mode([1,1,2,2,3,3,4,5,5])         # => [1,2,3,5]
 # mode([1,2,3])           # => [1,2,3], because all occur with equal frequency
-print mode(["who", "what", "where", "who"]) # => ["who"]
+#mode(["who", "what", "where", "who"]) # => ["who"]
 
 
 # 4. Reflection
