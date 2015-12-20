@@ -66,3 +66,22 @@ startup_names.each do |element|
     p element
   end
 end
+
+
+# Reflection
+
+# What are some general rules you can apply to nested arrays?
+# Always keep track of the index and levels. Rest is easy...
+
+# What are some ways you can iterate over nested arrays?
+# Using each do is the most popular. Also using if also helps you to see if nested element is an array
+
+# Did you find any good new methods to implement or did you re-use one you were already familiar with?
+# kind_of is a very neat method. I would use it again...
+
+# What was it and why did you decide that was a good option?
+# kind_of was effective to check if the nested element is an array or not
+
+
+
+
