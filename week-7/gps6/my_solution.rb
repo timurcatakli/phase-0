@@ -1,7 +1,7 @@
 # Virus Predictor
 
-# I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# I worked on this challenge [by myself, with: ]. Jillian
+# We spent [2] hours on this challenge.
 
 # EXPLANATION OF require_relative
 # require_relative complements the builtin method require by allowing you to load a file that is relative to the file containing the require_relative statement.
