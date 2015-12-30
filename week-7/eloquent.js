@@ -119,3 +119,14 @@ var me = {
 // see above
 // Q- What is a JavaScript object with a name and value property similar to in Ruby?
 // Hash
+
+
+
+// What are the biggest similarities and differences between JavaScript and Ruby?
+// JS is not as forgiving as Ruby. Also not as flexible. But JS acceptance rate and ability to manioulate DOM is amazin.
+
+// Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
+// Definitely. Math operations, logical operators, array...
+
+// How do you feel about diving into JavaScript after reading these chapters?
+// I am loving it
