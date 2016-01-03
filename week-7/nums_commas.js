@@ -1,3 +1,4 @@
+"use strict";
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
@@ -35,6 +36,7 @@ String.prototype.insertAt = function(index, string) {
 };
 
 function separateComma(number) {
+	"use strict";
 	var myString = String(number);
 	var j = 1;
 
