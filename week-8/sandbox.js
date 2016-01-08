@@ -1,15 +1,18 @@
-function titleCase(str) {
-	var newArray = str.split(' ');
-	var result = [];
-	console.log(newArray);
-	result = newArray.map(
-		function(c) {
-			return c.replace(/^./, function(k) {
-				return k.toUpperCase()
-			});
-		}
-	)
-	return result;
+"use strict";
+function largestOfFour(arr) {
+	var bigNumbers = new Array;
+	arr.forEach(function(item, index) {bigNumbers.push(Math.max.apply(undefined, item))}
+	);
+	
+	return console.log(bigNumbers);
 }
 
-titleCase("I'm a little tea pot");
+largestOfFour([
+	[4, 5, 1, 3],
+	[13, 27, 18, 26],
+	[32, 35, 37, 39],
+	[1000, 1001, 857, 1]
+]);
+
+// var arr = [1, 2, 5, 3];
+// console.log(Math.max.apply(undefined, arr));
