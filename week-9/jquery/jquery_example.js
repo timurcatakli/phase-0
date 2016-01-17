@@ -73,3 +73,21 @@ $('img').click(function(e){
 
 
 })  // end of the document.ready function: do not remove or write DOM manipulation below this.
+
+
+
+
+
+
+// What is jQuery?
+// Query is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
+
+// What does jQuery do for you?
+// jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.
+
+// jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+
+
+
+// What did you learn about the DOM while working on this challenge?
+// How to select HTML elements in relation to other elements.
